@@ -1,7 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --dsc-color-bg-primary: #C2C2C2;
+    --ds-color-bg-primary: #C2C2C2;
+    --ds-color-bg-secondary: #FFFFFF;
+    --ds-color-bg-tertiary: #55BC04;
+
+    --ds-color-text-primary: #FFFFFF;
+    --ds-color-text-secondary: #C2C2C2;
+    --ds-color-text-tertiary: #55BC04;
+
+    --ds-color-border-primary: #C2C2C2;
+    --ds-color-border-secondary: #55BC04;
 }
 
 * {
@@ -19,5 +28,5 @@ a:hover {
 
 html,
 body {
-    background-color: var(--dsc-color-bg-primary);
+    background-color: var(--ds-color-bg-primary);
 }
