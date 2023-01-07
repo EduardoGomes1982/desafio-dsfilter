@@ -30,3 +30,9 @@ html,
 body {
     background-color: var(--ds-color-bg-primary);
 }
+
+.ds-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+  }
