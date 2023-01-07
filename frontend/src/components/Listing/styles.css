@@ -4,6 +4,9 @@
     border-radius: 5px;
     border: 1px solid var(--ds-color-border-primary);
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .dsc-list-item {
