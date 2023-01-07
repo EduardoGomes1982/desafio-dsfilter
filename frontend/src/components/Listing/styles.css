@@ -9,7 +9,7 @@
 .dsc-list-item {
     width: 100%;
     border: 1px solid var(--ds-color-border-secondary);
-    height: 50px;
+    min-height: 50px;
     border-radius: 5px;
     padding: 10px;
 }
