@@ -33,8 +33,6 @@ export default function Filter({ onFilter }: Props) {
 
     function handleSubmit(event: any) {
         event.preventDefault();
-        /*formData.minPrice || setFormData({ ...formData, minPrice: 0 });
-        formData.maxPrice || setFormData({ ...formData, maxPrice: Number.MAX_VALUE });*/
         onFilter(formData.minPrice, formData.maxPrice);
     }
 
